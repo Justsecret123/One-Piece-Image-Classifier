@@ -4,12 +4,12 @@ A quick image classifier trained with manually selected One Piece images.
 
 ## Training 
 
-The model was trained using Keras Tuner for finding the best training hyperparameters. No pre-trained model has been used. The training session has been runned on Google Colab with a GPU execution type. 
+The model was trained using Keras Tuner for finding the best training hyperparameters (learning rate and number of units in the flatten layer). No pre-trained model has been used. The training session has been runned on Google Colab with a GPU execution type. 
 
 ## Model summary
 
 ![Model_summary](Screenshots/Model%20summary.PNG)
-> **The number of units as well as the shape of each layer has been obtained thanks to Keras fine tuning. Out of all the previously used method, this one has generated the best valdiation accuracy: 86.33%, and average accuracy as well: 92.55%.**
+> **The number of units as well as the shape of each layer has been obtained thanks to Keras fine tuning. Out of all the previously used method, this one has generated the best valdiation accuracy: 86.80%.**
 
 ## How to use 
 
