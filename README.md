@@ -9,7 +9,7 @@ The model was trained using Keras Tuner for finding the best training hyperparam
 ## Model summary
 
 ![Model_summary](Screenshots/Model%20summary.png)
-> **The number of units within the Dense Layer has been obtained thanks to Keras fine tuning. Out of all the previously used method, this one has generated the best valdiation accuracy: 89.09%.**
+> **The number of units within the Dense Layer has been obtained thanks to Keras fine tuning. Out of all the previously used method, this one has generated the best valdiation accuracy: 92.97%.**
 
 ## How to use 
 
