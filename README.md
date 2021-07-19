@@ -36,7 +36,7 @@ The model was trained using Keras Tuner for finding the best training hyperparam
 #### Navigate to the "image path" variable, and replace it with whatever file you want to perform the prediction/inference onto.
 ![Image_path](Screenshots/Image%20path.PNG). 
 
-> **The resutls will be diplayed in a terminal, as shown in the "Probabilities" screenshot above. 
+> **The resutls will be displayed in a terminal, as shown in the "Probabilities" screenshot above. 
 
 ## Prerequisites
 
