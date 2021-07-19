@@ -14,7 +14,7 @@ The model was trained using Keras Tuner for finding the best training hyperparam
 - An activation layer (sigmoid) which represents the final output: Probability of input(X) belonging to each class
 > **Based on Sergey Ioffe and Christian Szegedy "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift" research paper, there is no need to add a dropout layer since we've used a batch normalization layer.**
 
-![Model_summary](Screenshots/Model%20summary.png)
+![Model_summary](Screenshots/Model%20summary.PNG)
 > **The number of units within the Dense Layer has been obtained thanks to Keras fine tuning. Out of all the previously used method, this one has generated the best valdiation accuracy: 92.97%.**
 
 ## How to use 
