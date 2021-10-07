@@ -22,7 +22,7 @@ The model was trained using Keras Tuner for finding the best training hyperparam
 
 ## How to use 
 
-### 1-First option: Using the Tensorflow Serving image deployed ![here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
+### 1-First option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
 
 Pull the Docker imae with the OP_serving tag, then run inferences using the 8501 port. Tightly respect the model input architecture (batch_size, 180, 180, 3). 
 
