@@ -4,21 +4,21 @@ A quick image classifier trained with manually selected One Piece images.
 
 ## Training 
 
-The model was trained using Keras Tuner for finding the best training hyperparameters (learning rate and number of units in the flatten layer). No pre-trained model has been used. The training session has been runned on Google Colab with a GPU execution type. 
+No pre-trained model has been used. The training session has been runned on Google Colab with a GPU execution type. 
 
 ## Model description
 
-- 3 Convolutional layers followed by a batch normalization layer, then a MaxPooling layer followed by a batch normalization layer
+- 5 Convolutional layers followed by a batch normalization layer, then a MaxPooling layer followed by a batch normalization layer
 - A flatten layer
-- A dense layer which number of units will be decided by the hyper parameters
+- A dense layer with 480 units
 - An activation layer (sigmoid) which represents the final output: Probability of input(X) belonging to each class
 > **Based on Sergey Ioffe and Christian Szegedy "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift" research paper, there is no need to add a dropout layer since we've used a batch normalization layer.**
-- Output classes (probabilities) : Luffy, Nami, Sanji, Zoro
+- Output classes (probabilities) : Brook, Franky, Luffy, Nami, Sanji, Zoro
 
 ## Architecture
 
 ![Model architecture](Screenshots/Architecture.png)
-> **The number of units within the Dense Layer has been obtained thanks to Keras fine tuning. Out of all the previously used method, this one has generated the best valdiation accuracy: 86.74%.**
+> **Best valdiation accuracy: 88.43%.**
 
 ## How to use 
 
