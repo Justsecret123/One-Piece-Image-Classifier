@@ -1,6 +1,7 @@
 # One-Piece-Image-Classifier
 
 A quick image classifier trained with manually selected One Piece images. 
+> 88.43% accuracy
 
 ## Training 
 
