@@ -6,6 +6,10 @@ A quick image classifier trained with manually selected One Piece images.
 
 No pre-trained model has been used. The training session has been runned on Google Colab with a GPU execution type. 
 
+## Notebook 
+
+> Notebook link : [Click here](Model_without_Keras_Tuner.ipynb)
+
 ## Model description
 
 - 5 Convolutional layers followed by a batch normalization layer, then a MaxPooling layer followed by a batch normalization layer
