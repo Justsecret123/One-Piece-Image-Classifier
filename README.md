@@ -30,6 +30,8 @@ No pre-trained model has been used. The training session has been runned on Goog
 
 Pull the Docker imae with the OP_serving tag, then run inferences using the 8501 port. Tightly respect the model input architecture (batch_size, 180, 180, 3). 
 
+> A test script example is available [here](/Scripts/Prediction_OP_Model_Test.py)
+
 ### 2-Second option: Google Colab
 
 #### Step 1:  Run all the cells, then upload the files on which you want to make an inference by clicking on the upload button 
