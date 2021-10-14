@@ -17,7 +17,7 @@ No pre-trained model has been used. The training session has been runned on Goog
 
 ## Architecture
 
-![Model architecture](Screenshots/Architecture.png)
+![Model architecture](Screenshots/Model_architecture.png)
 > **Best valdiation accuracy: 88.43%.**
 
 ## How to use 
@@ -35,9 +35,12 @@ Pull the Docker imae with the OP_serving tag, then run inferences using the 8501
 ![Probabilities](Screenshots/Probabilities.PNG)
 > **Represents the probability of the character belonging to each class. These probabilities are mutually non-exclusive, since there can be more than one character within an image**
 
-![Results](Screenshots/Luffy%20Nami%20Results.PNG)
+![Results](Screenshots/Brook%20and%20Franky.PNG)
 
-![Results](Screenshots/Zoro%20Sanji%20Results.PNG)
+![Results](Screenshots/Luffy%20and%20Nami.PNG)
+
+![Results](Screenshots/Sanji%20and%20Zoro.PNG)
+
 
 
 ## Prerequisites
