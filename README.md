@@ -1,7 +1,7 @@
 # One-Piece-Image-Classifier
 
 A quick image classifier trained with manually selected One Piece images. 
-> 89.53% validation accuracy
+> 88.62% validation accuracy
 
 ## Training 
 
@@ -18,12 +18,12 @@ No pre-trained model has been used. The training session has been runned on Goog
 - A dense layer with 480 units
 - An activation layer (sigmoid) which represents the final output: Probability of input(X) belonging to each class
 > **Based on Sergey Ioffe and Christian Szegedy "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift" research paper, there is no need to add a dropout layer since we've used a batch normalization layer.**
-- Output classes (probabilities) : Brook, Chopper, Franky, Luffy, Nami, Sanji, Zoro
+- Output classes (probabilities) : Brook, Chopper, Franky, Luffy, Nami, Sanji, Usopp, Zoro
 
 ## Architecture
 
 ![Model architecture](Screenshots/Model_architecture.png)
-> **Best valdiation accuracy: 89.53%.**
+> **Best valdiation accuracy: 88.62%%.**
 
 ## How to use 
 
