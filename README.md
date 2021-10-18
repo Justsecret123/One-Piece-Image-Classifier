@@ -22,7 +22,7 @@ No pre-trained model has been used. The training session has been runned on Goog
 
 ## Architecture
 
-![Model architecture](Screenshots/Model_architecture.png)
+![Model architecture](Screenshots/ArchitectureV8.png)
 > **Best valdiation accuracy: 88.62%%.**
 
 ## How to use 
