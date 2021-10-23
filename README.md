@@ -1,11 +1,11 @@
 # One-Piece-Image-Classifier
 
 A quick image classifier trained with manually selected One Piece images. 
-> 88.62% validation accuracy
+> 95.25% validation accuracy
 
 ## Training 
 
-No pre-trained model has been used. The training session has been runned on Google Colab with a GPU execution type. 
+A fine-tuned mobilenet has been used. The training session has been runned on Google Colab with a GPU execution type. 
 
 ## Notebook 
 
@@ -22,14 +22,14 @@ No pre-trained model has been used. The training session has been runned on Goog
 
 ## Architecture
 
-![Model architecture](Screenshots/ArchitectureV8.png)
-> **Best valdiation accuracy: 88.62%%.**
+![Model architecture](Screenshots/ArchitectureV9.PNG)
+> **Best valdiation accuracy: 95.25%.**
 
 ## How to use 
 
 ### 1-First option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
 
-Pull the Docker imae with the OP_serving tag, then run inferences using the 8501 port. Tightly respect the model input architecture (batch_size, 180, 180, 3). 
+Pull the Docker imae with the OP_serving tag, then run inferences using the 8501 port. Tightly respect the model input architecture (batch_size, 224, 224, 3). 
 
 > A test script example is available [here](/Scripts/Prediction_OP_Model_Test.py)
 
@@ -42,11 +42,13 @@ Pull the Docker imae with the OP_serving tag, then run inferences using the 8501
 ![Probabilities](Screenshots/Probabilities.PNG)
 > **Represents the probability of the character belonging to each class. These probabilities are mutually non-exclusive, since there can be more than one character within an image**
 
-![Results](Screenshots/Brook%20and%20Franky.PNG)
+![Results](Brook%20and%20Chopper%202.PNG)
 
-![Results](Screenshots/Luffy%20and%20Nami.PNG)
+![Results](Franky%20and%20Jinbei2.PNG)
 
-![Results](Screenshots/Sanji%20and%20Zoro.PNG)
+![Results](Robin%20and%20Sanji2.PNG)
+
+![Results](Usopp%20and%20Zoro2.PNG)
 
 
 
