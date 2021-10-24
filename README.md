@@ -36,7 +36,7 @@ Pull the Docker imae with the OP_serving tag, then run inferences using the 8501
 ### 2-Second option: Google Colab
 
 #### Step 1:  Run all the cells, then upload the files on which you want to make an inference by clicking on the upload button 
-![Upload](Screenshots/Upload.PNG)
+![Upload](/Screenshots/File%20upload.PNG)
 
 #### Step 2: Slide to the prediction results. You will get two messages displayed as shown in the following screenshots: 
 ![Probabilities](Screenshots/Probabilities.PNG)
