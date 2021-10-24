@@ -13,11 +13,11 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 
 ## Model description
 
-- 5 Convolutional layers followed by a batch normalization layer, then a MaxPooling layer followed by a batch normalization layer
-- A flatten layer
-- A dense layer with 480 units
+- A data augmentation layer which creates "modified" images of the training set
+- A MobileNet layer which detects the features
+- A Global average pooling layer which converts the feature vectors into a 1280 element vector
+- 1*3 Dense layers followed by a dropout layer
 - An activation layer (sigmoid) which represents the final output: Probability of input(X) belonging to each class
-> **Based on Sergey Ioffe and Christian Szegedy "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift" research paper, there is no need to add a dropout layer since we've used a batch normalization layer.**
 - Output classes (probabilities) : Brook, Chopper, Franky, Luffy, Nami, Sanji, Usopp, Zoro
 
 ## Architecture
