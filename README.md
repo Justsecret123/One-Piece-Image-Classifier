@@ -1,7 +1,7 @@
 # One-Piece-Image-Classifier
 
 A quick image classifier trained with manually selected One Piece images. 
-> 97.56% validation accuracy
+> 97.00% validation accuracy
 
 ## Training 
 
@@ -18,12 +18,12 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 - A Global average pooling layer which converts the feature vectors into a 1280 element vector
 - 1*3 Dense layers followed by a dropout layer
 - An activation layer (sigmoid) which represents the final output: Probability of input(X) belonging to each class
-- Output classes (probabilities) : ['Ace', 'Brook', 'Chopper', 'Franky', 'Jinbei', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Usopp', 'Zoro']
+- Output classes (probabilities) : ['Ace', 'Akainu', 'Brook', 'Chopper', 'Franky', 'Jinbei', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Usopp', 'Zoro']
 
 ## Architecture
 
 ![Model architecture](Screenshots/ArchitectureV9.PNG)
-> **Best valdiation accuracy: 97.56%.**
+> **Best valdiation accuracy: 97.00%.**
 
 ## How to use 
 
