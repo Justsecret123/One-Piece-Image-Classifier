@@ -3,6 +3,10 @@
 A quick image classifier trained with manually selected One Piece images. 
 > 97.00% validation accuracy
 
+> **Deployed on my personal Docker Hub repository: *Click here* [Click here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models)
+
+> **Kaggle Notebook link:  [Kaggle notebook](https://www.kaggle.com/ibrahimserouis99/one-piece-image-classifier-notebook)
+
 ## Training 
 
 A fine-tuned mobilenet has been used. The training session has been runned on Google Colab with a GPU execution type. 
