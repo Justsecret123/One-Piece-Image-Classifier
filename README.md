@@ -1,7 +1,7 @@
 # One-Piece-Image-Classifier
 
 A quick image classifier trained with manually selected One Piece images. 
-> 92.00% validation accuracy
+> 92.86% validation accuracy
 
 > **Deployed on my personal Docker Hub repository: *Click here* [Click here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models)
 
