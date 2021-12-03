@@ -13,7 +13,7 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 
 ## Notebook 
 
-> Notebook link : [Click here](Model_without_Keras_Tuner.ipynb)
+> Notebook link : [Click here](one-piece-image-classifier-notebook.ipynb)
 
 ## Model description
 
@@ -22,12 +22,12 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 - A Global average pooling layer which converts the feature vectors into a 1280 element vector
 - 1*3 Dense layers followed by a dropout layer
 - An activation layer (sigmoid) which represents the final output: Probability of input(X) belonging to each class
-- Output classes (probabilities) : ['Ace', 'Akainu', 'Brook', 'Chopper', 'Franky', 'Jinbei', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Shanks', 'Usopp', 'Zoro']
+- Output classes (probabilities) : ['Ace', 'Akainu', 'Brook', 'Chopper', 'Franky', 'Jinbei', 'Law', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Shanks', 'Usopp', 'Zoro']
 
 ## Architecture
 
 ![Model architecture](Screenshots/ArchitectureV9.PNG)
-> **Best valdiation accuracy: 97.00%.**
+> **Best valdiation accuracy: 95.56%.**
 
 ## How to use 
 
