@@ -59,6 +59,5 @@ Pull the Docker imae with the OP_serving tag, then run inferences using the 8501
 ## Prerequisites
 
 - Python 3.x or higher 
-- IDE: Jupyter Lab/Google Colab
-- Libraries: Pathlib, Zipfile, os
+- IDE: Jupyter Lab/Kaggle Notebooks/Google Colab 
 - Frameworks: Tensorflow 2.0 or higher, Keras
