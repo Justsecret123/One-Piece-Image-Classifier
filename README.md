@@ -29,7 +29,7 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 ![Model architecture](Screenshots/ArchitectureV9.PNG)
 > **Best valdiation accuracy: 97.80%.**
 
-## Results
+## Results (Amazon SageMaker endpoint)
 
 ![Results](Screenshots/One%20Piece%20image%20classifier.gif)
 
