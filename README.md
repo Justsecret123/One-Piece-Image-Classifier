@@ -38,7 +38,7 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 
 ### 1-First option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
 
-Pull the Docker imae with the OP_serving tag, then run inferences using the 8501 port. Tightly respect the model input architecture (batch_size, 224, 224, 3). 
+Pull the Docker imae with the OP_serving tag, then run inferences using the 8501 port. 
 
 > A test script example is available [here](/Scripts/Prediction_OP_Model_Test.py)
 
