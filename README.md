@@ -29,6 +29,11 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 ![Model architecture](Screenshots/ArchitectureV9.PNG)
 > **Best valdiation accuracy: 97.80%.**
 
+## Results
+
+![Results](Screenshots/One%20Piece%20image%20classifier.gif)
+
+
 ## How to use 
 
 ### 1-First option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
@@ -45,15 +50,6 @@ Pull the Docker imae with the OP_serving tag, then run inferences using the 8501
 #### Step 2: Slide to the prediction results. You will get two messages displayed as shown in the following screenshots: 
 ![Probabilities](Screenshots/Probabilities.PNG)
 > **Represents the probability of the character belonging to each class. These probabilities are mutually non-exclusive, since there can be more than one character within an image**
-
-![Results](Brook%20and%20Chopper%202.PNG)
-
-![Results](Franky%20and%20Jinbei2.PNG)
-
-![Results](Robin%20and%20Sanji2.PNG)
-
-![Results](Usopp%20and%20Zoro2.PNG)
-
 
 
 ## Prerequisites
