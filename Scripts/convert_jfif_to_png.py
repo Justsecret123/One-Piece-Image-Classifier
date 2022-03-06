@@ -9,6 +9,8 @@ import os
 from glob import glob
 import cv2 
 
+# Constant
+INPUT_DIR = "your_input_directory" 
 
 def main():
     """Main : loop through a folder then proceeds to convert JFIFF files to PNG files """
@@ -29,6 +31,6 @@ def main():
         os.remove(file)
     
 if __name__ == "__main__":
-    INPUT_DIR = "your_input_directory" 
+    
     main()
     
