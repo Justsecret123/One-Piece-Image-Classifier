@@ -33,6 +33,9 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 
 ![Results](Screenshots/One%20Piece%20image%20classifier.gif)
 
+# Useful scripts 
+- [JFIFF to PNG converter](/Scripts/convert_jfif_to_png.py)
+- [Image inverter](Scripts/invert_images.py)
 
 ## How to use 
 
