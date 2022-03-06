@@ -17,20 +17,25 @@ from keras.preprocessing import image
 from PIL import Image
 
 # Define classes
-classes = ['Ace', 'Akainu', 'Brook', 'Chopper', 'Franky', 'Jinbei', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Usopp', 'Zoro']
+CLASSES = ['Ace', 'Akainu', 'Brook', 'Chopper', 'Franky', 
+           'Jinbei', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Usopp', 'Zoro']
 
 # Image URL Location
 IMAGE_URL = 'https://static.wikia.nocookie.net/onepiece/images/4/4b/Sanji_Post_Ellipse_Portrait.png/revision/latest/scale-to-width-down/180?cb=20200803083919&path-prefix=fr'
-
 
 # API endpoint
 SERVER_URL = 'http://localhost:8501/v1/models/OP_model:predict'
 
 
 def main():
+    """Main"""
+    
+    
     # Download the image
+    print("\nDownloading the image...")
     dl_request = requests.get(IMAGE_URL, stream=True)
     dl_request.raise_for_status()
+    print("\nDone!")
 
     # Compose a JOSN Predict request (send the image tensor).
     jpeg_rgb = Image.open(io.BytesIO(dl_request.content))
@@ -52,15 +57,19 @@ def main():
     total_time = 0
     num_requests = 10
     for _ in range(num_requests):
+        # Send a request
         response = requests.post(SERVER_URL, data=predict_request)
         response.raise_for_status()
+        # Get the elapsed time
         total_time += response.elapsed.total_seconds()
+        # Get the predicitions results
         prediction = response.json()['predictions'][0]
     
     # Print the results
-    print(f"Prediction class: { classes[np.argmax(prediction)] } \
-          \n\nPrediction score: {np.max(prediction)} \ Average latency: { round((total_time * 1000) / num_requests,2)} ms")
+    print(f"\nPrediction class: { CLASSES[np.argmax(prediction)] } \
+          \nPrediction score: {np.max(prediction)} \| Average latency: { round((total_time * 1000) / num_requests,2)} ms")
 
 
 if __name__ == '__main__':
-  main()
+    main()
+    
