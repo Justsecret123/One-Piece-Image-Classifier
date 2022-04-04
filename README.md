@@ -23,13 +23,13 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 - A data augmentation layer which creates "modified" images of the training set
 - A MobileNet layer which detects the features
 - A Global average pooling layer which converts the feature vectors into a 1280 element vector
-- 1*3 Dense layers followed by a dropout layer
+- 1*3 Dense layers followed by a dropout layer to avoid overfitting
 - An activation layer (sigmoid) which represents the final output: Probability of input(X) belonging to each class
 - Output classes (probabilities) : ['Ace', 'Akainu', 'Brook', 'Chopper', 'Crocodile', 'Franky', 'Jinbei', 'Law', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Shanks', 'Usopp', 'Zoro']
 
 ## Architecture
 
-![Model architecture](Screenshots/ArchitectureV9.PNG)
+![Model architecture](Screenshots/Model_summary_new.PNG)
 > **Best valdiation accuracy: 97.80%.**
 
 ## Results (Amazon SageMaker endpoint)
