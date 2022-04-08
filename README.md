@@ -10,6 +10,9 @@ A quick image classifier trained with manually selected One Piece images. 97.80%
   <img src="https://img.shields.io/badge/LinkedIn-Ibrahim%20Serouis-blue?link=http://left&link=http://right)"/>
 </a>
 
+> **Tensorflow Lite model : [op_classifier_V14.tflite](https://drive.google.com/file/d/1-xTYqv10IQmV0FS3ftYH6LeTbE86dlkT/view?usp=sharing)
+
+
 ## Training 
 
 A fine-tuned mobilenet has been used. The training session has been runned on Google Colab with a GPU execution type. 
