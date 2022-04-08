@@ -6,11 +6,11 @@ A quick image classifier trained with manually selected One Piece images. 97.80%
 
 > **Kaggle Notebook link:  [Kaggle notebook](https://www.kaggle.com/ibrahimserouis99/one-piece-image-classifier-notebook)
 
+> **Tensorflow Lite model : [op_classifier_V14.tflite](https://drive.google.com/file/d/1-xTYqv10IQmV0FS3ftYH6LeTbE86dlkT/view?usp=sharing)
+
 <a href="https://www.linkedin.com/in/ibrahim-serouis-b05378181/">
   <img src="https://img.shields.io/badge/LinkedIn-Ibrahim%20Serouis-blue?link=http://left&link=http://right)"/>
 </a>
-
-> **Tensorflow Lite model : [op_classifier_V14.tflite](https://drive.google.com/file/d/1-xTYqv10IQmV0FS3ftYH6LeTbE86dlkT/view?usp=sharing)
 
 
 ## Training 
