@@ -42,7 +42,7 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 
 ## How to use 
 
-### 1-First option: Using the command line runner
+### 1-First option: Using the [command line runner](Scripts/op_classifier.py)
 
 #### Args 
 
@@ -55,11 +55,9 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 
 ### 2-Second option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
 
-Pull the Docker imae with the OP_serving tag, then run inferences using the 8501 port. 
+Pull the Docker image with the OP_serving tag, then run inferences using the 8501 port. 
 
 > A test script example is available [here](/Scripts/Prediction_OP_Model_Test.py)
-
-
 
 
 ## Prerequisites
