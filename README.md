@@ -42,24 +42,29 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 
 ## How to use 
 
-### 1-First option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
+### 1-First option: Using the command line runner
+
+#### Args 
+
+![Args](Screenshots/command_line_args.PNG)
+
+> **The image source can be a file path or a URL**
+
+#### Results 
+![Results](Screenshots/command_line_results.PNG)
+
+### 2-Second option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
 
 Pull the Docker imae with the OP_serving tag, then run inferences using the 8501 port. 
 
 > A test script example is available [here](/Scripts/Prediction_OP_Model_Test.py)
 
-### 2-Second option: Google Colab
 
-#### Step 1:  Run all the cells, then upload the files on which you want to make an inference by clicking on the upload button 
-![Upload](/Screenshots/File%20upload.PNG)
-
-#### Step 2: Slide to the prediction results. You will get two messages displayed as shown in the following screenshots: 
-![Probabilities](Screenshots/Probabilities.PNG)
-> **Represents the probability of the character belonging to each class. These probabilities are mutually non-exclusive, since there can be more than one character within an image**
 
 
 ## Prerequisites
 
 - Python 3.x or higher 
 - IDE: Jupyter Lab/Kaggle Notebooks/Google Colab 
-- Frameworks: Tensorflow 2.0 or higher, Keras
+- Frameworks: Tensorflow 2.6 or higher and its dependencies
+- Libraries : OpenCV, PIL, NumPy
