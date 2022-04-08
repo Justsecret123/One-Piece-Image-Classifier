@@ -56,7 +56,7 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 #### Results 
 ![Results](Screenshots/command_line_results.PNG)
 
-### 2-Second option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) **TAG: OP_serving**
+### 2-Second option: Using the Tensorflow Serving image deployed [here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models) (**TAG: OP_serving**)
 
 Pull the Docker image with the OP_serving tag, then run inferences using the 8501 port. 
 
