@@ -1,6 +1,9 @@
 # One-Piece-Image-Classifier ![Language_support](https://img.shields.io/pypi/pyversions/Tensorflow) ![Last_commit](https://img.shields.io/github/last-commit/JustSecret123/Human-pose-estimation) ![Workflow](https://img.shields.io/github/workflow/status/JustSecret123/Human-pose-estimation/Pylint/main) ![Tensorflow_version](https://img.shields.io/badge/Tensorflow%20version-2.6.2-orange)
 
-A quick image classifier trained with manually selected One Piece images. 97.13% validation accuracy.
+I trained a custom Deep Learning model to recognize some One Piece characters (16, at the moment) with Tensorflow, Keras, and a fine-tuned MobilenetV2.
+Afterwards, the model was converted to a TFLite model for running inferences on small devices, and a Tensorflow Serving Docker container for HTTP-based inferences.
+
+97.13% validation accuracy.
 
 > **Deployed on my personal Docker Hub repository: [Click here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models)
 
