@@ -17,8 +17,9 @@ from keras.preprocessing import image
 from PIL import Image
 
 # Define classes
-CLASSES = ['Ace', 'Akainu', 'Brook', 'Chopper', 'Franky', 
-           'Jinbei', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Usopp', 'Zoro']
+CLASSES = ['Ace', 'Akainu', 'Brook', 'Chopper', 'Crocodile', 'Franky', 
+           'Jinbei', 'Kurohige', 'Law', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Shanks',
+           'Usopp', 'Zoro']
 
 # Image URL Location
 IMAGE_URL = 'https://static.wikia.nocookie.net/onepiece/images/4/4b/Sanji_Post_Ellipse_Portrait.png/revision/latest/scale-to-width-down/180?cb=20200803083919&path-prefix=fr'
