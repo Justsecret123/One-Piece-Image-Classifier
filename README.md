@@ -18,7 +18,7 @@ Afterwards, the model was converted to a TFLite model for running inferences on 
 
 ## Training 
 
-A fine-tuned mobilenet has been used. The training session was runned on Google Colab with a GPU execution type. 
+A fine-tuned mobilenet has been used. The training session was runned on Kaggle with a GPU execution type. 
 
 ## Notebook 
 
