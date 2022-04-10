@@ -1,6 +1,6 @@
 # One-Piece-Image-Classifier ![Language_support](https://img.shields.io/pypi/pyversions/Tensorflow) ![Last_commit](https://img.shields.io/github/last-commit/JustSecret123/Human-pose-estimation) ![Workflow](https://img.shields.io/github/workflow/status/JustSecret123/Human-pose-estimation/Pylint/main) ![Tensorflow_version](https://img.shields.io/badge/Tensorflow%20version-2.6.2-orange)
 
-A quick image classifier trained with manually selected One Piece images. 97.80% validation accuracy.
+A quick image classifier trained with manually selected One Piece images. 97.13% validation accuracy.
 
 > **Deployed on my personal Docker Hub repository: [Click here](https://hub.docker.com/repository/docker/ibrahimserouis/my-tensorflow-models)
 
@@ -28,12 +28,12 @@ A fine-tuned mobilenet has been used. The training session has been runned on Go
 - A Global average pooling layer which converts the feature vectors into a 1280 element vector
 - 1*3 Dense layers followed by a dropout layer to avoid overfitting
 - An activation layer (sigmoid) which represents the final output: Probability of input(X) belonging to each class
-- Output classes (probabilities) : ['Ace', 'Akainu', 'Brook', 'Chopper', 'Crocodile', 'Franky', 'Jinbei', 'Law', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Shanks', 'Usopp', 'Zoro']
+- Output classes (probabilities) : ['Ace', 'Akainu', 'Brook', 'Chopper', 'Crocodile', 'Franky', 'Jinbei', 'Kurohige', 'Law', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Shanks', 'Usopp', 'Zoro']
 
 ## Architecture
 
 ![Model architecture](Screenshots/Model_summary_new.PNG)
-> **Best valdiation accuracy: 97.80%.**
+> **Best valdiation accuracy: 97.13%.**
 
 ## Results (Amazon SageMaker endpoint)
 
