@@ -20,11 +20,11 @@ Afterwards, the model was converted to a TFLite model for running inferences on 
 
 A fine-tuned mobilenet has been used. The training session was runned on Kaggle with a GPU execution type. 
 
-## Dataset 
+### Dataset 
 
 > Dataset link : [Click here](https://www.kaggle.com/datasets/ibrahimserouis99/one-piece-image-classifier)
 
-## Notebook 
+### Notebook 
 
 > Notebook link : [Click here](one-piece-image-classifier-notebook.ipynb)
 
