@@ -58,7 +58,7 @@ A fine-tuned mobilenet has been used. The training session was runned on Kaggle 
 
 ![Args](Screenshots/command_line_args.PNG)
 
-> **The image source can be a file path or a URL**
+> **The image source can be a file path or a URL. Set the "mode" parameter to 'image' or 'url' accordingly.**
 
 #### Results 
 ![Results](Screenshots/command_line_results.PNG)
