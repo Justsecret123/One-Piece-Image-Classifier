@@ -40,7 +40,7 @@ A fine-tuned mobilenet has been used. The training session was runned on Kaggle 
 
 ## Architecture
 
-![Model architecture](Screenshots/Model_summary_new.PNG)
+![Model architecture](Screenshots/Model_summary_v16.PNG)
 > **Best valdiation accuracy: 96.84%.**
 
 ## Results (Amazon SageMaker endpoint)
