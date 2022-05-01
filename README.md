@@ -32,7 +32,7 @@ A fine-tuned mobilenet has been used. The training session was runned on Kaggle 
 
 - **A data augmentation layer** which creates "modified" images of the training set
 - **A MobileNet layer** which detects the features
-- A Global average pooling layer which converts the feature vectors into a 1280 element vector
+- **A Global average pooling layer** which converts the feature vectors into a 1280 element vector
 - **1*3 Dense layers** followed by a dropout layer to prevent overfitting
 - **An activation layer** (sigmoid) which represents the final output: Probability of input(X) belonging to each class
 - Output classes (17 probabilities) : ['Ace', 'Akainu', 'Brook', 'Chopper', 'Crocodile', 'Franky', 'Jinbei', 'Kurohige', 'Law', 'Luffy', 'Mihawk', 'Nami', 'Robin', 'Sanji', 'Shanks', 'Usopp', 'Zoro']
