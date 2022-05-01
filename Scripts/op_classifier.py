@@ -16,8 +16,8 @@ import numpy as np
 
 # Define classes
 CLASSES = ['Ace', 'Akainu', 'Brook', 'Chopper', 'Crocodile', 'Franky', 
-           'Jinbei', 'Kurohige', 'Law', 'Luffy', 'Nami', 'Robin', 'Sanji', 'Shanks',
-           'Usopp', 'Zoro']
+           'Jinbei', 'Kurohige', 'Law', 'Luffy', 'Mihawk', 
+           'Nami', 'Robin', 'Sanji', 'Shanks','Usopp', 'Zoro']
 
 # Input shape
 INPUT_SHAPE = (224,224)
